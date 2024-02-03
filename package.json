@@ -1,0 +1,30 @@
+{
+  "name": "relogio",
+  "version": "1.1.0",
+  "description": "This is a app clock for desktop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-builder"
+  },
+  "build": {
+    "icon": "/home/erick/Desktop/labs/electron/relogio-electron/build/icons/256x256.png",
+    "productName": "clock",
+    "linux": {
+      "target": [
+        "AppImage",
+        "snap"
+      ]
+    }
+  },
+  "author": {
+    "name": "Érick",
+    "email": "eierickdasilva@gmail.com"
+  },
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "electron": "^28.1.4",
+    "electron-builder": "^24.9.1"
+  }
+}
