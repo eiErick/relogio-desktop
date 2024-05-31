@@ -5,24 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title class="title-win">Clock</title>
+    <link rel="shortcut icon" href="build/icons/64x64.png" type="image/x-icon">
+    <title class="title-win"></title>
 </head>
 <body>
-    <div class="menu">
-        <span class="settings">Settings</span>
+    <div class="header">
+        <span class="header-option selected" id="header-option-clock" data-option="clock"></span>
+        <span class="header-option" id="header-option-stopwatch" data-option="stopwatch"></span>
     </div>
-    <div id="relogio">
+
+    <div class="stopwatch">
+        <p>
+            <div class="stopwatch-timer">
+                <span class="stopwatch-hours stopwatch-imer" id="stopwatch-show-hours"></span><span class="stopwatch-minutes stopwatch-timer" id="stopwatch-show-minutes"></span><span id="stopwatch-display"></span>
+            </div>
+        </p>
+        <div class="stopwatch-btn">
+            <button class="stopwatch-btn-start" id="stopwatch-btn-start-stop" data-state="paused"></button>
+            <button class="stopwatch-btn-reset" id="stopwatch-btn-reset"></button>
+        </div>
+    </div>
+
+    <div id="relogio" class="clock">
         <div>
             <span id="hours">00</span>
-            <span class="time">Hours</span>
+            <span class="time"></span>
         </div>
         <div>
             <span id="minutes">00</span>
-            <span class="time">Minutes</span>
+            <span class="time"></span>
         </div>
         <div>
             <span id="seconds">00</span>
-            <span class="time">Seconds</span>
+            <span class="time"></span>
         </div>
     </div>
     <script src="script.js"></script>

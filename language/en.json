@@ -2,5 +2,10 @@
     "title": "Clock",
     "hours": "Hours",
     "minutes": "Minutes",
-    "seconds": "Seconds"
+    "seconds": "Seconds",
+    "headerOptionClock": "clock",
+    "headerOptionStopwatch": "stopwatch",
+    "stopwatchBtnStart": "Start",
+    "stopwatchBtnStop": "Stop",
+    "stopwatchBtnReset": "Reset"
 }

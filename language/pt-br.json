@@ -2,5 +2,10 @@
     "title": "Relogio",
     "hours": "Horas",
     "minutes": "Minutos",
-    "seconds": "Segundos"
+    "seconds": "Segundos",
+    "headerOptionClock": "relógio",
+    "headerOptionStopwatch": "cronômetro",
+    "stopwatchBtnStart": "Começar",
+    "stopwatchBtnStop": "Pausar",
+    "stopwatchBtnReset": "Resetar"
 }
