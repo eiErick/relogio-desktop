@@ -1,15 +1,14 @@
 {
   "name": "relogio",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "This is a app clock for desktop",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "electron-builder"
   },
   "build": {
-    "icon": "/home/erick/Desktop/labs/electron/relogio-electron/build/icons/256x256.png",
+    "icon": "./build/icon/",
     "productName": "clock",
     "linux": {
       "target": [
