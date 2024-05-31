@@ -21,6 +21,9 @@ headerOptions.forEach((option) => {
 
         const selected = document.querySelector('.selected');
 
+        let titleWin = document.querySelector('.title-win');
+        titleWin.innerText = selected.innerText;
+
         if (selected.dataset.option === 'clock') {
             clock.style.display = 'flex';
             stopwatch.style.display = 'none';
